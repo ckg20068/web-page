@@ -1,3 +1,15 @@
 *{
     border: solid 1px red;
 }
+header{
+    background-color: lightgreen;
+}
+nav{
+    background-color: lightslategray;
+}
+section{
+    background-color: lightsalmon;
+}
+footer{
+    background-color: lightgreen;
+}
