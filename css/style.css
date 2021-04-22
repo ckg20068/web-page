@@ -1,15 +1,32 @@
+body{
+    background-color: violet;
+}
 *{
+    margin: 0;
     border: solid 1px red;
 }
+header,section,nav,footer{
+    display: block;
+}
 header{
+    height: 60px;
+    width: 1000px;
     background-color: lightgreen;
 }
 nav{
+    width: 200px;
     background-color: lightslategray;
 }
 section{
+    float: left;
+    width: 795px;
     background-color: lightsalmon;
 }
 footer{
+    clear: both;
+    width: 1000px;
     background-color: lightgreen;
+}
+#page2{
+    display: none;
 }

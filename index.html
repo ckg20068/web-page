@@ -4,7 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <title>ポートフォリオ</title>
-    <script></script>
+    <script>
+        function showpage2(){
+            item=document.getElementById("page1")
+            item.style.display="none"
+            item=document.getElementById("page2")
+            item.style.display="block"
+        }
+    </script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -14,9 +21,9 @@
     </header>
     <nav>
         <ul>
-            <li>Webデザイン</li>
+            <li onclick="showpage2()">Webデザイン</li>
             <li>Mos Excel</li>
-            <li>JavaScript演習</li>
+            <li onclick="showpage2()">JavaScript演習</li>
             <li>迷路</li>
             <li>円</li>
             <li>πの計算</li>
@@ -24,14 +31,14 @@
             <li>回転</li>
         </ul>
     </nav>
-    <section>
+    <section id="page1">
         <h1>Webデザイン</h1>
         <p>
             Web上のデザインを、htmlとcssを使い学んだ3年間で作ったWebを簡潔にまとめたものを下記のリンクに載せています、参照ください。
         </p>
         <p><a href="hoshino1126/home.html">制作物まとめ</a></p>
     </section>
-    <section>
+    <section id="page2">
         <h1>JavaScript演習</h1>
         <p>
             JavaScriptを作り、乱数を使い円周率が3.14に近くなるのかを調べたり、昔のケータイゲームのような単純な動きのテニスゲームを作ったり、Canvasに図形を書きその図形を動かして180°回転させたりしました、
