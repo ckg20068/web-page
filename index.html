@@ -5,10 +5,28 @@
     <meta charset="UTF-8">
     <title>ポートフォリオ</title>
     <script>
-        function showpage2(){
-            item=document.getElementById("page1")
+        function showpageWeb(){
+            item=document.getElementById("pageWeb")
+            item.style.display="block"
+            item=document.getElementById("pageJava")
             item.style.display="none"
-            item=document.getElementById("page2")
+            item=document.getElementById("pageMos")
+            item.style.display="none"
+        }
+        function showpageJava(){
+            item=document.getElementById("pageWeb")
+            item.style.display="none"
+            item=document.getElementById("pageJava")
+            item.style.display="block"
+            item=document.getElementById("pageMos")
+            item.style.display="none"
+        }
+        function showpageMos(){
+            item=document.getElementById("pageWeb")
+            item.style.display="none"
+            item=document.getElementById("pageJava")
+            item.style.display="none"
+            item=document.getElementById("pageMos")
             item.style.display="block"
         }
     </script>
@@ -17,13 +35,13 @@
 
 <body>
     <header>
-        <h1>星野、ポートフォリオ<h1>
+        <h1>星野、ポートフォリオ</h1>
     </header>
     <nav>
         <ul>
-            <li onclick="showpage2()">Webデザイン</li>
-            <li>Mos Excel</li>
-            <li onclick="showpage2()">JavaScript演習</li>
+            <li onclick="showpageWeb()">Webデザイン</li>
+            <li onclick="showpageMos()">Mos Excel</li>
+            <li onclick="showpageJava()">JavaScript演習</li>
             <li>迷路</li>
             <li>円</li>
             <li>πの計算</li>
@@ -31,17 +49,24 @@
             <li>回転</li>
         </ul>
     </nav>
-    <section id="page1">
+    <section id="pageWeb">
         <h1>Webデザイン</h1>
         <p>
             Web上のデザインを、htmlとcssを使い学んだ3年間で作ったWebを簡潔にまとめたものを下記のリンクに載せています、参照ください。
         </p>
         <p><a href="hoshino1126/home.html">制作物まとめ</a></p>
     </section>
-    <section id="page2">
+    <section id="pageJava">
         <h1>JavaScript演習</h1>
         <p>
             JavaScriptを作り、乱数を使い円周率が3.14に近くなるのかを調べたり、昔のケータイゲームのような単純な動きのテニスゲームを作ったり、Canvasに図形を書きその図形を動かして180°回転させたりしました、
+        </p>
+        <p><a href="">制作物まとめ</a></p>
+    </section>
+    <section id="pageMos">
+        <h1>Mos Excel</h1>
+        <p>
+            Excelを使い、リストの作成や計算、集計を学びました
         </p>
         <p><a href="">制作物まとめ</a></p>
     </section>
