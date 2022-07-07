@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>要素の取得と内容の変更</title>
+    <style>
+        #status {
+            font-weight: bold;
+            color: #FF0000;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>座席の予約</h1>
+    <p>東京会場<span id="status">（予約受付中）</span></p>
+    <div id="btn"><button onclick="reserve()">予約する</button></div>
+</body>
+<script>
+    function reserve() {
+        let anserBox = document.getElementById('status');
+        anserBox.innerHTML = 'ありがとうございます。'
+        document.getElementById('btn').innerHTML = '<b>あなたのうしろにいる</>';
+}
+
+</script>
+
+</html>

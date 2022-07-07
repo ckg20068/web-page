@@ -1,0 +1,139 @@
+body {
+    background-color: #c4dfe6;
+}
+
+header {
+    margin: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #24968c;
+    border-top: solid 5px #1f7e66;
+    border-bottom: solid 5px #1f7e66;
+    color: azure;
+}
+
+.PR,
+.Esupo,
+.Gaku,
+.PgLeng,
+.liEntryForm {
+    width: 320px;
+    list-style: none;
+    padding: 10px 0px 10px 9px;
+    margin: 5px;
+    background: #f4f4f4;
+    border-left: solid 6px #5bb7ae;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+}
+
+.Katudou,
+ul {
+    list-style: none;
+}
+
+.up {
+    display: none;
+}
+
+main {
+    width: 50%;
+}
+
+#Diary {
+    display: none;
+}
+
+section {
+    border-color: #6fb98f;
+}
+
+.seimon {
+    padding: 30px 0px 20px 150px;
+    margin: auto;
+}
+section{
+    display: none;
+}
+table,
+th,
+td {
+    border: solid 1px #75f0d1;
+    color: #fff;
+    background-color: #5f778d
+}
+th {
+   background-color: #9a9eab;
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+    color: #666;
+}
+header {
+    width: 100%;
+}
+nav {
+    width: 30%;
+}
+main {
+    width: 70%;
+}
+footer {
+    width: 100%;
+}
+td {
+    position: relative;
+}
+
+.tooltip {
+    width: 130px;
+    padding: 10px;
+    font-size: 12px;
+    margin: -30px 0 0;
+    background-color: #666;
+    color: #fff;
+    position: absolute;
+    right: -160px;
+    top: 50%;
+}
+
+.tooltip:before {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-color: rgba(102, 102, 102, 0);
+    border-right-color: #5e5e5e;
+    border-width: 8px;
+    margin-top: -8px;
+}
+
+.content {
+    width: 980px;
+}
+.container {
+    margin: 0 0 0 10px;
+    padding: 40px;
+    width: 80%;
+    color: #333;
+    background: #ffffff;
+}
+
+.slick-slide {
+    text-align: center;
+     color: #ffffff;
+    background: white;
+}
+.APHS{
+    display: hide;
+}
+.single-item img{
+    height: 450px;
+}
+.Gazozo{
+    text-align: center;
+}
